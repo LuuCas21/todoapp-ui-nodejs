@@ -1,0 +1,17 @@
+.task_element {
+    width:100%;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    padding:22px 8px;
+    border-bottom:1px solid #ccc;
+}
+
+.task_element > p {
+    width:30%;
+    min-width:auto;
+}
+
+.task_element > .task_btns {
+    display:flex;
+}

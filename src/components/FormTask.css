@@ -1,0 +1,36 @@
+.form__ {
+    width:50%;
+    display:flex;
+    margin:16px 0;
+}
+
+.form__ > .task_input {
+    width:90%;
+    padding:12px 16px;
+    outline:none;
+    border:1px solid #ccc;
+    font-size:17px;
+    border-right:none;
+    margin:0;
+}
+
+.form__ > .task_btn {
+    width:15%;
+    padding:12px 16px;
+    border:1px solid #ccc;
+    cursor:pointer;
+    font-size:17px;
+    margin:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+@media screen and (max-width: 890px) {
+    .form__ {
+        width:90%;
+    }
+    .form__ > .task_input {
+        width:90%;
+    }
+}

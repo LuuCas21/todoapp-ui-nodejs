@@ -1,0 +1,20 @@
+.edit_form {
+    display:flex;
+}
+
+.edit_form > input {
+    outline:none;
+    padding:4px 8px;
+}
+
+.edit_form > button {
+    padding:4px 8px;
+}
+
+.edit_form > a {
+    text-decoration:none;
+    color:#000000;
+}
+.edit_form > input, button, a {
+    margin:0 4px;
+}

@@ -1,0 +1,11 @@
+.task_gallery {
+    width:50%;
+    border:1px solid #ccc;
+    border-bottom:none;
+}
+
+@media screen and (max-width: 890px) {
+    .task_gallery {
+        width:90%;
+    }
+}
